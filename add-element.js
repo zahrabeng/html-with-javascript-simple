@@ -8,5 +8,5 @@ const newContent = document.createTextNode("Hi there and greetings!");
 newDiv.appendChild(newContent);
 
 // add the newly created element and its content into the DOM
-const currentDiv = document.getElementById("my-target-element");
-document.body.appendChild(newDiv, currentDiv);
+const existingDiv = document.getElementById("my-target-element");
+document.body.appendChild(newDiv, existingDiv);
