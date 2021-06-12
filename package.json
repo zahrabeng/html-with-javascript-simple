@@ -1,0 +1,13 @@
+{
+  "name": "html-about-me-non-semantic",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
