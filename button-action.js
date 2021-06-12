@@ -1,5 +1,7 @@
+// find the button in the DOM tree
 const magicButton = document.getElementById("magic-button");
 
+// define a function to change its text
 function changeButtonText() {
   const textOptions = [
     "Magic lies this way",
@@ -14,4 +16,5 @@ function changeButtonText() {
   magicButton.textContent = nextText;
 }
 
+// run the function whenever the button is clicked
 magicButton.onclick = changeButtonText;
